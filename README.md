@@ -9,6 +9,15 @@
 - Portfolio
 - Drag and drop interface
 
+## Schema
+
+
+## Tech Stack
+ - Framework: Ruby on Rails v5.2.3
+ - Language: Ruby
+ - Database: PostgreSQL v7.12.1
+ - Query Language: ActiveRecord
+
 ### Code Example
 
 ```ruby
