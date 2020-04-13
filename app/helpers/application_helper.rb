@@ -16,4 +16,8 @@ module ApplicationHelper
     end
   end
 
+  def copyright_generator
+    MillerViewTool::Renderer.copyright('Ryan Miller', 'All rights reserved')
+  end
+
 end
