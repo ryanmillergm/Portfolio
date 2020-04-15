@@ -167,7 +167,7 @@ body {
  */
 
  .card {
-   margin: 100px 0px 100px 0px;
+   margin: 6rem 0rem 6rem 0rem;
  }
 
  .card-body{
@@ -178,3 +178,15 @@ body {
  .auth-links a {
    color: black;
  }
+
+ .register-text {
+   text-align: right;
+ }
+
+
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
+  marin-bottom:  10px;
+}
