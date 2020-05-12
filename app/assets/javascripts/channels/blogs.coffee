@@ -1,11 +1,11 @@
 jQuery(document).on 'turbolinks:load', ->
-  comment = $('#comments')
+  comments = $('#comments')
   if comments.length > 0
     App.global_chat = App.cable.subscriptions.create {
       channel: "BlogsChannel"
       blog_id: comments.data('blog-id')
     },
-    connect: ->
+    connected: ->
     disconnected: ->
     received: (data) ->
       comments.append data['comment']
@@ -18,5 +18,5 @@ jQuery(document).on 'turbolinks:load', ->
       App.global_chat.send_comment textarea.val(),
       comments.data('blog-id')
       textarea.val('')
-      e.PreventDefault()
-      return false
+    e.preventDefault()
+    return false
