@@ -71,12 +71,10 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
-  font-size: 34px;
 }
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
-  font-size: 18px;
   font-weight: bold;
   color: rgba(255,255,255,.5);
   background-color: transparent;
@@ -112,7 +110,7 @@ body {
  */
 
 .cover {
-  padding: 2rem 1.5rem;
+  padding: 0 1.5rem;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
@@ -151,11 +149,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 90%; /* Must be percentage or pixels for horizontal alignment */
-  }
-
-  .cover-container {
-    padding-top: 12rem;
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
 
@@ -163,32 +157,26 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
-    padding-top: 0rem;
+    width: 65rem;
   }
 }
-
 
 /*
  * Custom Styles
  */
 
- .card {
-   margin: 6rem 0rem 6rem 0rem;
- }
+.card-block {
+  color: black;
+  text-align: left;
+}
 
- .card-body{
-   color: black;
-   text-align: left;
- }
+.auth-links a {
+  color: black;
+}
 
- .auth-links a {
-   color: black;
- }
-
- .register-text {
-   text-align: right;
- }
+.register-text {
+  text-align: right;
+}
 
 .login > .card {
   width: 22rem;
@@ -220,12 +208,15 @@ body {
   color: white;
 }
 
-.cover-container h1 {
-  font-weight: bold;
-  padding-bottom: 2rem;
+.tech-news {
+  color: black;
+  margin: 20px;
 }
 
-.cover-container p {
-  font-weight: bold;
-  font-size: 18px;
+.tech-news > .card {
+  padding: 30px;
+}
+
+.tech-news a {
+  color: green;
 }
