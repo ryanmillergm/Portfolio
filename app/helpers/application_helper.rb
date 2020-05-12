@@ -75,16 +75,4 @@ module ApplicationHelper
   def alert_generator msg
     js add_gritter(msg, title: "Ryan Miller Portfolio", sticky: false)
   end
-
-
-
-
-
-
-
-
-
-
-
-
 end
