@@ -8,7 +8,6 @@
     <%= csrf_meta_tags %>
 
     <meta name="keywords" content="<%= @seo_keywords %>" />
-\
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -35,6 +34,8 @@
           <%= yield %>
 
           <%= render "shared/application_footer" %>
+
+          <%= alerts %>
 
           <%= source_helper("application") %>
 
