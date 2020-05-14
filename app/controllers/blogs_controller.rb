@@ -8,7 +8,6 @@ class BlogsController < ApplicationController
   def index
     if logged_in?(:site_admin)
       @blogs = Blog.recent_blogs.page(params[:page])
-      # @blogs = Blog.page(params[:page]).per(5)
     else
       @blogs = Blog.published.recent_blogs.page(params[:page])
     end
