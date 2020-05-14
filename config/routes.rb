@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'topic/index'
+  get 'topic/show'
   devise_for :users, path: '', path_names: { sign_in: 'login', sign_out: 'logout', sign_up: 'register' }
   resources :categories
   resources :portfolios, except: [:show] do
