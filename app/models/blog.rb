@@ -8,4 +8,8 @@ class Blog < ApplicationRecord
   belongs_to :topic, optional: true
 
   has_many :comments, dependent: :destroy
+
+  paginates_per 5
+
+  scope :recent_blogs, -> {order(:created_at)}
 end
