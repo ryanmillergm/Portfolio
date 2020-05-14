@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get 'contact', to: 'pages#contact'
   get 'tech-news', to: 'pages#tech_news'
 
-  resources :topic, only: [:index, :show]
+  resources :topics, only: [:index, :show]
 
   resources :blogs do
     member do
