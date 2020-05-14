@@ -1,3 +1,11 @@
-<% @topics.each do |topic| %>
-  <h3><%= topic.title %></h3>
-<% end %>
+<div class="col-sm-8 blog-main">
+
+  <%= render 'topic_masthead' %>
+
+  <%= paginate @topics %>
+
+  <%= render @topics %>
+
+  <%= paginate @topics %>
+
+</div>
