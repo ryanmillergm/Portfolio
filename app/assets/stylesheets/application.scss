@@ -233,6 +233,7 @@ h6, .h6 {
 }
 
 .app-card-container {
+  padding: 100px 0px 150px 0px;
   color: black;
   text-align: left;
 }
@@ -256,5 +257,46 @@ h6, .h6 {
 
 .skill {
   margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.app-card-container > .card h1 {
+  padding-bottom: 15px;
+}
+
+.app-card-container > .card > .row > .col-md-7 > p > .btn-primary {
+  margin: 0px 10px 0px 10px;
+}
+
+.profile-img {
+  border: 1px solid gray;
+}
+
+
+.app-card-container a {
+  color: blue;
+}
+
+.card-block {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.skills {
+  margin-top: 40px;
+}
+
+.skill {
+  margin-top: 20px;
   margin-bottom: 10px;
 }

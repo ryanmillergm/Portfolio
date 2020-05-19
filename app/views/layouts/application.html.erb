@@ -8,7 +8,10 @@
     <%= csrf_meta_tags %>
 
     <meta name="keywords" content="<%= @seo_keywords %>" />
+    
     <%= csp_meta_tag %>
+
+    <%= favicon_link_tag 'favicons/rm.ico' %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -36,8 +39,6 @@
           <%= render "shared/application_footer" %>
 
           <%= alerts %>
-
-          <%= source_helper("application") %>
 
         </div>
       </div>
