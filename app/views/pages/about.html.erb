@@ -1,24 +1,76 @@
 <div class="app-card-container">
   <div class="card">
-    <div class="about-container">
-      <h1>Reliable. Gamer. Father. Mentor.</h1>
+    <h1>Reliable. Gamer. Father. Mentor.</h1>
 
-      <div class="row">
-        <div class="col-md-4">
-          <%= image_tag "profile_image.jpg", width: 350, alt: "Profile Image", class: "profile-img" %>
-        </div>
+    <div class="row">
+      <div class="col-md-4">
+        <%= image_tag "profile_image.jpg", width: 350, alt: "Profile Image", class: "profile-img" %>
+      </div>
 
-        <div class="col-md-1">
-        </div>
+      <div class="col-md-1">
+      </div>
 
-        <div class="col-md-7">
-          <p>Software engineer who loves experimenting, creating and reaching new limits with an innate desire to help, encourage and grow people. I thrive on contributing and making a difference in a world that is always in need of a little sunshine.</p>
+      <div class="col-md-7">
+        <p>Software engineer who loves experimenting, creating and reaching new limits with an innate desire to help, encourage and grow people. I thrive on contributing and making a difference in a world that is always in need of a little sunshine.</p>
 
-          <p>I am passionately curious to learn and try new things to use my analytical skills, come up with intuitive solutions and solve complex problems. I come from a very fast-paced agile background where problems need immediate responses and clever solutions.</p>
+        <p>I am passionately curious to learn and try new things to use my analytical skills, come up with intuitive solutions and solve complex problems. I come from a very fast-paced agile background where problems need immediate responses and clever solutions.</p>
 
-          <p>My experience includes working solo and on teams, creating projects with deadlines, managing and developing teams to create the best experience with the highest quality for everyone. I work closely with project managers and my team to create great end results.</p>
-        </div>
+        <p>My experience includes working solo and on teams, creating projects with deadlines, managing and developing teams to create the best experience with the highest quality for everyone. I work closely with project managers and my team to create great end results.</p>
+
+        <p>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#jobHistory"
+            aria-expanded="false"
+            aria-controller="jobHistory"
+          >
+            Job History
+          </button>
+          
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#education"
+            aria-expanded="false"
+            aria-controller="education"
+          >
+            Education
+          </button>
+        </p>
+        <!-- <p>
+          <div class="collapse" id="jobHistory">
+            <div class="card card-block">
+              Jobs 1
+            </div>
+            <div class="card card-block">
+              Jobs 2
+            </div>
+          </div>
+        </p> -->
       </div>
     </div>
+    <p>
+      <div class="collapse" id="jobHistory">
+        <div class="card card-block">
+          Jobs 1
+        </div>
+        <div class="card card-block">
+          Jobs 2
+        </div>
+      </div>
+    </p>
+    <p>
+      <div class="collapse" id="education">
+        <div class="card card-block">
+          School 1
+        </div>
+        <div class="card card-block">
+          School 2
+        </div>
+      </div>
+    </p>
   </div>
 </div>
