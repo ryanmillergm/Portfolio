@@ -70,7 +70,12 @@ To install:
  - Add ENV variables with `$heroku config:set <KEY>=<value>`
  - `$heroku run rake db:migrate`
  - `$heroku run rake db:seed`
-
+* For ActionCable to work in heroku:
+- Go to heroku.com and navigate to your app
+- In the `overview` tab, cick `Configure Add-ons`
+- In the `Add-ons` section, search for `Redis Cloud` and add
+- To check proper redis installation on heroku, in your terminal type:
+- `$heroku config:get REDISCLOUD_URL`
 
  ## Core Contributors
  - Ryan Miller, [@ryanmillergm](https://github.com/ryanmillergm)
