@@ -66,8 +66,11 @@ To install:
  ```
 
 * Deployment instructions
+ - `$heroku create project-name`
  - `$git push heroku master`
  - Add ENV variables with `$heroku config:set <KEY>=<value>`
+ - `$heroku run rake db:migrate`
+ - `$heroku run rake db:seed`
 
 
  ## Core Contributors
