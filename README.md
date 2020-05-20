@@ -41,16 +41,15 @@ outputs:
 To install:
  - `clone this repo`
  - `$bundle`
- - `$bundle exec figaro install`
 
  * Database creation
  - `$bundle exec rails db:create`
 
 * Database initialization
  - `$bundle exec rails db:migrate`
-
-* How to run the test suite
- - `$bundle exec rspec`
+ 
+ * Seed Database
+ - `$bundle exec rails db:seed`
 
  - Add your own API keys to `.env`:
  ```
@@ -77,6 +76,6 @@ To install:
  - Ryan Miller, [@ryanmillergm](https://github.com/ryanmillergm)
 
 ### How to Contribute
- - Fork and clone the [repo](https://github.com/ryanmillergm/recipe_friend.git)
+ - Fork and clone the [repo](https://github.com/ryanmillergm/Portfolio.git)
  - Make changes on your fork & push them to GitHub
  - Visit https://github.com/ryanmillergm/Portfolio and click `New pull request`
