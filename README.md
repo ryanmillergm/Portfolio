@@ -24,6 +24,10 @@
 
 To properly utilize markdown in blog, use the following example:
 
+![example](./app/assets/images/code_example.png)
+
+outputs:
+
 ```ruby
   def my_great_method
     puts "here it is"
